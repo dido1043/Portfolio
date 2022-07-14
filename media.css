@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+    /*Nav-bar Hamburger menu*/
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right:0px;
+      left:0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:white;
+      transition:top 1s ease;
+      display:none;
+    }
+    nav .mainMenu .close-menu{
+      display: block;
+      position: absolute;
+      top:20px;
+      right: 20px;
+      cursor: pointer;
+    }
+  
+    nav .open-menu{
+      display: block;
+    }
+    nav li a{
+      color: black;
+    }
+    nav .mainMenu li a:hover{
+      background: none;
+      color: #0fa3fe;
+      font-size: 1.2rem;
+    }
+    /*About me*/
+    .about-me{
+      text-align: center;
+      margin-right: 50%;
+    }
+    .about-me .text{
+        margin-top: 100px;
+        float: left;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-size: 1.5rem;
+        width: 300px;
+      }
+  }
