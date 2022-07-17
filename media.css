@@ -1,4 +1,10 @@
 @media screen and (max-width: 700px) {
+  body{
+    text-align: center;
+  }
+  h2{
+    font-size: 36px;
+  }
     /*Nav-bar Hamburger menu*/
     nav .mainMenu {
       height: 100vh;
@@ -32,17 +38,21 @@
       background: none;
       color: #0fa3fe;
       font-size: 1.2rem;
+      transition: 0.5s;
     }
     /*About me*/
     .about-me{
       text-align: center;
-      margin-right: 50%;
     }
     .about-me .text{
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-left: 15%;
+        margin-bottom: 50px;
         float: left;
         font-family: 'Edu VIC WA NT Beginner', cursive;
         font-size: 1.5rem;
         width: 300px;
       }
+      /*PROJECTS*/
+      
   }

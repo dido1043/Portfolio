@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap");
 :root {
   --prim-color: #0fa3fe;
 }
@@ -15,6 +15,36 @@ body {
   color: white;
 }
 
+html::-webkit-scrollbar {
+  width: 10px;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar-track {
+  background: #0000;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #0fa3fe;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #1d87ff;
+  border-radius: 10px;
+}
+/*Headers*/
+h2 {
+  color: #ffff;
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+h2:hover {
+  color: var(--prim-color);
+  margin-bottom: 50px;
+  transition: 2s;
+}
 /*Navigation*/
 nav {
   display: flex;
@@ -31,6 +61,7 @@ nav h1:hover {
   margin-top: 10px;
   margin-left: 10px;
   color: var(--prim-color);
+  transition: 2s;
 }
 nav ul {
   text-align: right;
@@ -75,25 +106,20 @@ nav li a {
 }
 
 /*About me*/
-.about-me{
+.about-me {
   margin-top: 50px;
-  margin-left:40px ;
+  margin-left: 40px;
 }
 
-.about-me h2{
-  color: #ffff;
-  margin-bottom: 50px;
-}
-.about-me img{
+.about-me img {
   margin-left: 20px;
   width: 225px;
   height: 225px;
   border: 5px solid var(--prim-color);
   border-radius: 50%;
-
 }
 
-.about-me img:hover{
+.about-me img:hover {
   margin-left: 20px;
   width: 250px;
   height: 250px;
@@ -101,11 +127,55 @@ nav li a {
   border-radius: 50%;
   transition: 1s ease;
 }
-.about-me .text{
+.about-me .text {
   top: 0px;
   float: right;
   margin-right: 600px;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
   font-size: 25px;
 }
 
+.about-me .text:hover {
+  color: var(--prim-color);
+  transition: 2s;
+}
+/*PROJECTS*/
+.projects {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.projects .text {
+  top: 0px;
+  color: #ffff;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 25px;
+}
+.projects .text p {
+  margin-bottom: 1rem;
+}
+.projects .text ul li {
+  margin-right: 100px;
+  list-style-type: none;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.projects .text ul li img {
+  height: 150px;
+  width: 300px;
+  border-radius: 20px;
+  filter: grayscale(0.5) blur(3px);
+}
+.projects .text ul li img:hover {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+  filter: grayscale(0.5) blur(1px);
+  transition: 1s;
+}
+
+.projects .text ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
