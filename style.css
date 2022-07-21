@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb:hover {
 h2 {
   color: #ffff;
   margin-bottom: 50px;
-  font-size: 36px;
+  font-size: 40px;
 }
 h2:hover {
   color: var(--prim-color);
@@ -141,7 +141,7 @@ nav li a {
 }
 /*PROJECTS*/
 .projects {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 40px;
 }
 
@@ -155,7 +155,6 @@ nav li a {
   margin-bottom: 1rem;
 }
 .projects .text ul li {
-  margin-right: 100px;
   list-style-type: none;
   margin-right: 1rem;
   display: inline-block;
@@ -176,6 +175,48 @@ nav li a {
 }
 
 .projects .text ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+/*HARDWARE*/
+.hardware{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.hardware .text {
+  top: 0px;
+  color: #ffff;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 25px;
+}
+
+.hardware .text p {
+  margin-bottom: 1rem;
+}
+
+.hardware .text ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.hardware .text ul li img {
+  height: 150px;
+  width: 300px;
+  border-radius: 20px;
+  filter: grayscale(0.5) blur(3px);
+}
+
+.hardware .text ul li img:hover {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+  filter: grayscale(0.5) blur(1px);
+  transition: 1s;
+}
+
+.hardware .text ul li a {
   text-decoration: none;
   color: #ffff;
 }
