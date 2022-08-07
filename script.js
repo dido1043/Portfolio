@@ -6,11 +6,10 @@ const closeMenu = document.querySelector('.close-menu');
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
-function show (){
+function show() {
     mainMenu.style.display = 'flex';
-    mainMenu.style.top='0px'
+    mainMenu.style.top = '0px'
 }
-function close(){
-    mainMenu.style.top='-100%'
+function close() {
+    mainMenu.style.top = '-100%'
 }
-//----------------------------------------------------------------

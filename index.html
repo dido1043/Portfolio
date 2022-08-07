@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-    <head>
-        <title>Portfolio</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/f3c33c0301.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="media.css">
-        <link rel="stylesheet" href="scrollbar.css">
-    </head>
-    <body>
 
+<head>
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f3c33c0301.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+
+<body>
+    <div class="wrapper">
         <nav>
             <h1>Deyan Dudunovski</h1>
-            <div class="open-menu"><i class="fa-solid fa-bars" ></i></div>
+            <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
             <ul class="mainMenu">
                 <li><a href="#about-me" class="normal">ABOUT ME</a></li>
                 <li><a href="#projects" class="normal">PROJECTS</a></li>
                 <li><a href="#hardware" class="normal">HARDWARE</a></li>
                 <li><a href="#" class="normal">CONTACT</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100007788019128" id="facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/d.dudunovski/?hl=en" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100007788019128" id="facebook"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/d.dudunovski/?hl=en" id="instagram"><i
+                            class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="https://github.com/dido1043" id="github"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://twitter.com/DeyanDudunovski"id="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://twitter.com/DeyanDudunovski" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </li>
                 <li class="close-menu"><i class="fa-solid fa-xmark"></i></li>
-        </ul>
-            
+            </ul>
+
         </nav>
         <div class="about-me" id="about-me">
             <h2>About me</h2>
@@ -47,15 +52,15 @@
                     <li>
                         <a href="https://github.com/dido1043/Scooty">
                             <p>Scooty</p>
-                        <img src="scooty.png" alt="scooty">
+                            <img src="scooty.png" alt="scooty">
                         </a>
-                        
+
                     </li>
                     <li><a href="https://github.com/dido1043/Kids-Corner">
-                        <p>Kids Corner</p>
-                        <img src="screenshot1.png" alt="kc">
-                    </a>
-                 </li>
+                            <p>Kids Corner</p>
+                            <img src="screenshot1.png" alt="kc">
+                        </a>
+                    </li>
                 </ul>
             </section>
         </div>
@@ -66,25 +71,38 @@
                     <li><a href="https://ardes.bg/product/acer-nitro-5-an515-57-76ck-nh-qesex-003-w10p-276096"></a>
                         <p>Acer Nitro 5</p>
                         <img src="laptop.jpg" alt="laptop">
-                        
+
                     </li>
                     <li>
                         <a href="https://ardes.bg/product/redragon-pegasus-m705-m705-97491"></a>
                         <p>Redragon</p>
                         <img src="mouse.jpg" alt="mouse">
-                        
+
                     </li>
                     <li>
-                        <a href="https://www.emag.bg/audio-slushalki-wireless-over-ear-jbl-tune-710bt-bluetooth-baterie-50h-pure-bass-sound-mikrofon-cheren-jblt710btblk/pd/DQS7QHMBM/?X-Search-Id=88a4b0aed85753e659c0&X-Product-Id=86304457&X-Search-Page=1&X-Search-Position=4&X-Section=search&X-MB=0&X-Search-Action=view"></a>
+                        <a
+                            href="https://www.emag.bg/audio-slushalki-wireless-over-ear-jbl-tune-710bt-bluetooth-baterie-50h-pure-bass-sound-mikrofon-cheren-jblt710btblk/pd/DQS7QHMBM/?X-Search-Id=88a4b0aed85753e659c0&X-Product-Id=86304457&X-Search-Page=1&X-Search-Position=4&X-Section=search&X-MB=0&X-Search-Action=view"></a>
                         <p>JBL Tune</p>
                         <img src="headset.jpg" alt="headset">
-                        
-                    </li>                 
+
+                    </li>
                 </ul>
             </section>
         </div>
-        
-        <script src="script.js"></script>
-        <script src="scrolling.js"></script>
-    </body>
+        <br>
+        <div class="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <input type="email" name="email" id="email" placeholder="Your email">
+                <input type="text" name="phone" id="phone" placeholder="Your phone">
+                <input type="text" name="text" id="text" placeholder="text">
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="scrolling.js"></script>
+</body>
+
 </html>

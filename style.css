@@ -143,6 +143,7 @@ nav li a {
 .projects {
   margin-top: 150px;
   margin-left: 40px;
+  text-align: center;
 }
 
 .projects .text {
@@ -179,9 +180,10 @@ nav li a {
   color: #ffff;
 }
 /*HARDWARE*/
-.hardware{
+.hardware {
   margin-top: 50px;
   margin-left: 40px;
+  text-align: center;
 }
 
 .hardware .text {
@@ -219,4 +221,35 @@ nav li a {
 .hardware .text ul li a {
   text-decoration: none;
   color: #ffff;
+}
+/*Contact*/
+.contact {
+  margin-top: 50px;
+  margin-left: 40px;
+  height: 400px;
+  text-align: center;
+}
+.contact form input {
+  margin-left: 550px;
+  border: none;
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  margin-bottom: 10px;
+  height: 2.5rem;
+  text-align: center;
+}
+.contact form input:nth-child(4) {
+  width: 400px;
+  display: flex;
+  margin-bottom: 10px;
+  height: 5rem;
+  text-align: center;
+}
+
+.contact form button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
 }
