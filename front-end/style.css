@@ -143,7 +143,6 @@ nav li a {
 .projects {
   margin-top: 150px;
   margin-left: 40px;
-  text-align: center;
 }
 
 .projects .text {
@@ -179,68 +178,27 @@ nav li a {
   text-decoration: none;
   color: #ffff;
 }
-/*HARDWARE*/
-.hardware {
-  margin-top: 50px;
-  margin-left: 40px;
-  text-align: center;
-}
-
-.hardware .text {
-  top: 0px;
-  color: #ffff;
-  font-family: "Edu VIC WA NT Beginner", cursive;
-  font-size: 25px;
-}
-
-.hardware .text p {
-  margin-bottom: 1rem;
-}
-
-.hardware .text ul li {
-  list-style-type: none;
-  margin-right: 1rem;
-  display: inline-block;
-}
-
-.hardware .text ul li img {
-  height: 150px;
-  width: 300px;
-  border-radius: 20px;
-  filter: grayscale(0.5) blur(3px);
-}
-
-.hardware .text ul li img:hover {
-  height: 200px;
-  width: 400px;
-  border-radius: 20px;
-  filter: grayscale(0.5) blur(1px);
-  transition: 1s;
-}
-
-.hardware .text ul li a {
-  text-decoration: none;
-  color: #ffff;
-}
 /*Contact*/
 .contact {
   margin-top: 50px;
   margin-left: 40px;
   height: 400px;
-  text-align: center;
 }
 .contact form input {
-  margin-left: 550px;
   border: none;
   border-radius: 15px;
-  width: 400px;
+  width: 450px;
+  height: 2.5rem;
   display: flex;
   margin-bottom: 10px;
-  height: 2.5rem;
+
   text-align: center;
 }
+.contact form input ::-webkit-input-placeholder {
+  font-family: "myFont", Arial, Helvetica, sans-serif;
+}
 .contact form input:nth-child(4) {
-  width: 400px;
+  width: 450px;
   display: flex;
   margin-bottom: 10px;
   height: 5rem;
@@ -252,4 +210,19 @@ nav li a {
   height: 50px;
   border: none;
   border-radius: 15px;
+  margin-bottom: 1.5rem;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.contact p {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-bottom: 1.5rem;
+}
+
+.contact section {
+  float: right;
+  margin: 0 150px;
+  font-size: 26px;
+}
+.contact section ul li {
+  list-style-type: none;
 }

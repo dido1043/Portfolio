@@ -6,7 +6,6 @@
     <script src="https://kit.fontawesome.com/f3c33c0301.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="scrollbar.css">
 </head>
 
 <body>
@@ -17,8 +16,7 @@
             <ul class="mainMenu">
                 <li><a href="#about-me" class="normal">ABOUT ME</a></li>
                 <li><a href="#projects" class="normal">PROJECTS</a></li>
-                <li><a href="#hardware" class="normal">HARDWARE</a></li>
-                <li><a href="#" class="normal">CONTACT</a></li>
+                <li><a href="#contact" class="normal">CONTACT</a></li>
                 <li><a href="https://www.facebook.com/profile.php?id=100007788019128" id="facebook"><i
                             class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/d.dudunovski/?hl=en" id="instagram"><i
@@ -32,7 +30,7 @@
         </nav>
         <div class="about-me" id="about-me">
             <h2>About me</h2>
-            <img src="picture.jpg" alt="profile-pic">
+            <img src="/pics/picture.jpg" alt="profile-pic">
             <section class="text">
                 <p>My name is Deyan Dudunovski. <br>
                     I am 17 years old.<br>
@@ -52,55 +50,75 @@
                     <li>
                         <a href="https://github.com/dido1043/Scooty">
                             <p>Scooty</p>
-                            <img src="scooty.png" alt="scooty">
+                            <img src="/pics/scooty.png" alt="scooty">
                         </a>
 
                     </li>
                     <li><a href="https://github.com/dido1043/Kids-Corner">
                             <p>Kids Corner</p>
-                            <img src="screenshot1.png" alt="kc">
+                            <img src="/pics/screenshot1.png" alt="kc">
+                        </a>
+                    </li>
+                    <li><a href="https://github.com/dido1043/Portfolio">
+                            <p>Portfolio</p>
+                            <img src="/pics/screenshot2.png" alt="pf">
                         </a>
                     </li>
                 </ul>
             </section>
         </div>
-        <div class="hardware" id="hardware">
-            <h2>Hardware</h2>
-            <section class="text">
+        <br>
+        <div class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>За изработка на адаптивен уебсайт</p>
+            <section>
                 <ul>
-                    <li><a href="https://ardes.bg/product/acer-nitro-5-an515-57-76ck-nh-qesex-003-w10p-276096"></a>
-                        <p>Acer Nitro 5</p>
-                        <img src="laptop.jpg" alt="laptop">
-
+                    <li>
+                        <h3>Phone</h3>
+                        <p>0893915115</p>
                     </li>
                     <li>
-                        <a href="https://ardes.bg/product/redragon-pegasus-m705-m705-97491"></a>
-                        <p>Redragon</p>
-                        <img src="mouse.jpg" alt="mouse">
-
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.emag.bg/audio-slushalki-wireless-over-ear-jbl-tune-710bt-bluetooth-baterie-50h-pure-bass-sound-mikrofon-cheren-jblt710btblk/pd/DQS7QHMBM/?X-Search-Id=88a4b0aed85753e659c0&X-Product-Id=86304457&X-Search-Page=1&X-Search-Position=4&X-Section=search&X-MB=0&X-Search-Action=view"></a>
-                        <p>JBL Tune</p>
-                        <img src="headset.jpg" alt="headset">
-
+                        <h3>Addres</h3>
+                        <p>Madan/Smolyan</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="486" height="315" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=4900/Madan/Bulgaria&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://fmovies-online.net"></a><br>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        height: 315px;
+                                        width: 486px;
+                                    }
+                                </style><a href="https://www.embedgooglemap.net">wordpress add google map</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: 315px;
+                                        width: 486px;
+                                    }
+                                </style>
+                            </div>
+                            <br>
+                        </div>
                     </li>
                 </ul>
             </section>
-        </div>
-        <br>
-        <div class="contact">
-            <h2>Contact</h2>
-            <form>
-                <input type="text" name="name" id="name" placeholder="Your name">
-                <input type="email" name="email" id="email" placeholder="Your email">
-                <input type="text" name="phone" id="phone" placeholder="Your phone">
-                <input type="text" name="text" id="text" placeholder="text">
-                <button>Submit</button>
+            <form class="contact-form" action="#">
+                <input type="text" name="name" class="name" placeholder="Your name">
+                <input type="email" name="email" class="email" placeholder="Your email">
+                <input type="text" name="subject" class="subject" placeholder="Your subject">
+                <input type="text" name="text" class="text" placeholder="text">
+                <button type="submit">Send</button>
             </form>
+
         </div>
     </div>
+    <br>
+    <br>
     <script src="script.js"></script>
     <script src="scrolling.js"></script>
 </body>

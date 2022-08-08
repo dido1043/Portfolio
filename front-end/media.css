@@ -59,5 +59,9 @@
   /*Contact*/
   .contact form input {
     margin-left: 0px;
+    margin-right: 5px;
+  }
+  .contact section {
+    display: none;
   }
 }
