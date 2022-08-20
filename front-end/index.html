@@ -2,6 +2,8 @@
 
 <head>
     <title>Portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/f3c33c0301.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -107,11 +109,12 @@
                     </li>
                 </ul>
             </section>
-            <form class="contact-form" action="#">
-                <input type="text" name="name" class="name" placeholder="Your name">
-                <input type="email" name="email" class="email" placeholder="Your email">
-                <input type="text" name="subject" class="subject" placeholder="Your subject">
-                <input type="text" name="text" class="text" placeholder="text">
+            <form method="POST" class="contact-form">
+                <input type="text" name="name" class="name" placeholder="Your name" required>
+                <input type="email" name="email" class="email" placeholder="Your email" required>
+                <input type="text" name="subject" class="subject" placeholder="Your subject" required>
+
+                <textarea name="text" id="text" class="text" cols="30" rows="10"></textarea>
                 <button type="submit">Send</button>
             </form>
 
