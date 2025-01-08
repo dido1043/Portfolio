@@ -1,0 +1,10 @@
+body{
+    background: gray;
+}
+.hero{
+    border-radius: 20px;
+}
+
+.carousel-item{
+    width: 300px;
+}
